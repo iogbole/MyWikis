@@ -1,4 +1,4 @@
-# Setting up AppDynamics Single Sign-On (SSO) with Shibboleth and OpenLDAP
+# Setting up AppDynamics Single Sign-On (SSO) with Shibboleth and OpenLDAP like a BOSS
 
 This wiki is a practical guide on how to install and configure OpenSAML, OpenLDAP and integrate it with the  controller&#39;s Single Sign-On (SSO) authentication. SSO is an authentication mechanism that enables users to login to one or many applications with the same user name and password. This single credential is, in most cases,  stored and managed from a central repository called LDAP.
 
