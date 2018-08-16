@@ -95,8 +95,10 @@ _Note, ignore the step above if your server is assigned domain name, especially 
 Download the latest version of shib from  - [https://shibboleth.net/downloads/identity-provider](https://shibboleth.net/downloads/identity-provider/). version 3.3.1 is the latest as at the time of writing this wiki.
 
 `cd /tmp`
-wget [https://shibboleth.net/downloads/identity-provider/3.3.1/shibboleth-identity-provider-3.3.1.zip](https://shibboleth.net/downloads/identity-provider/3.3.1/shibboleth-identity-provider-3.3.1.zip)
-unzip shibboleth-identity-provider-3.3.1.zip
+
+`wget [https://shibboleth.net/downloads/identity-provider/3.3.1/shibboleth-identity-provider-3.3.1.zip](https://shibboleth.net/downloads/identity-provider/3.3.1/shibboleth-identity-provider-3.3.1.zip)`
+
+`unzip shibboleth-identity-provider-3.3.1.zip`
 
 Next, change to your desired user (I am using root), then change directory to the shibboleth directory.
 
