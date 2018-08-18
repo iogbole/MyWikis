@@ -60,7 +60,7 @@ Test your LDAP server on port 389
 
 Alternatively, download and [setup phpLDAPAdmin](https://support.eapps.com/index.php?/Knowledgebase/Article/View/437/55/user-guide---openldap-and-phpldapadmin#installing-openldap-and-phpldapadmin), but this may require a few iterations to complete the setup.
 
-For consistency with this guide, create an Organization unite called uk, that way, we will refer to our Base DN as `ou=uk,dc=app,dc=com` going forward.
+For consistency with this guide, create an Organization unit called uk, that way, we will refer to our Base DN as `ou=uk,dc=app,dc=com` going forward.
 
 Create a user, or use this shell script to create LDAP users in bulk - [https://github.com/iogbole/bulk-add-ldap-users](https://github.com/iogbole/bulk-add-ldap-users)
 
@@ -82,7 +82,7 @@ to set the JAVA_HOME environment variable.
 
 ### Install Shibboleth
 
-You have probably heard of OKTA, OneLogin, ADFS, PingId etc, but not so much of Shibboleth. Shibboleth performs exact functions (and even more) as the popular Identity Providers; it is an Open Source SAML Identity Provider and it has out of the box support for LDAP, Kerberos, JAAS, X.509, SPNEGO and multifactor authentication with Duo, google etc.
+You have probably heard of OKTA, OneLogin, ADFS, PingId etc, but not so much of Shibboleth. Shibboleth performs exact functions (and even more IMHO) as the popular Identity Providers; it is an open source SAML Identity Provider and it has out of the box support for LDAP, Kerberos, JAAS, X.509, SPNEGO. It also supports multifactor authentication with DUO, google,OpenID etc 
 
 Modify your `/etc/hosts`:
 
